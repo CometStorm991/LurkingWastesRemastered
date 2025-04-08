@@ -6,9 +6,9 @@ using System;
 using System.IO;
 using System.Reflection;
 
-[CustomEditor(typeof(Readme))]
+[CustomEditor(typeof(Readme2))]
 [InitializeOnLoad]
-public class ReadmeEditor : Editor
+public class Readme2Editor : Editor
 {
     static string s_ShowedReadmeSessionStateName = "ReadmeEditor.showedReadme";
     
@@ -16,7 +16,7 @@ public class ReadmeEditor : Editor
 
     const float k_Space = 16f;
 
-    static ReadmeEditor()
+    static Readme2Editor()
     {
         EditorApplication.delayCall += SelectReadmeAutomatically;
     }
