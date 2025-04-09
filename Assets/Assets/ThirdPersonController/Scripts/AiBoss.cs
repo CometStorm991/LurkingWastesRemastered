@@ -3,6 +3,7 @@ using UnityEngine;
 public class AiBoss : MonoBehaviour
 {
     public Rigidbody rigidbody;
+    public Animator animator;
 
     public GameObject player;
 
@@ -15,7 +16,7 @@ public class AiBoss : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         float x = transform.position.x;
         float z = transform.position.z;
@@ -27,5 +28,6 @@ public class AiBoss : MonoBehaviour
         walkingForce += (new Vector3(0.0f, 0.0f, walkingSpeed)) * (z > playerZ ? -1.0f : 1.0f);
 
         rigidbody.AddForce(walkingForce);
+        animator.SetFloat("Speed", rigidbody.linearVelocity.magnitude);
     }
 }
