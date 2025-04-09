@@ -12577,7 +12577,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1549465089}
   - component: {fileID: 1549465090}
-  - component: {fileID: 1549465091}
   m_Layer: 5
   m_Name: Health Bar
   m_TagString: Untagged
@@ -12603,7 +12602,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -274, y: 254}
+  m_AnchoredPosition: {x: -180, y: 141}
   m_SizeDelta: {x: 481.8004, y: 23.4927}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1549465090
@@ -12657,21 +12656,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1549465091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1549465088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90199139dc8732f44ac738bc4d73d499, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthSlider: {fileID: 1549465090}
-  maxHealth: 100
-  health: 1.95
 --- !u!43 &1552492538
 Mesh:
   m_ObjectHideFlags: 0
