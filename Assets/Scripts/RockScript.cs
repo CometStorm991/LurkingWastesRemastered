@@ -25,7 +25,7 @@ public class RockScript : MonoBehaviour
 
     private bool SoundVelocity()
     {
-        return (Mathf.Abs(rb.velocity.x) + Mathf.Abs(rb.velocity.y) + Mathf.Abs(rb.velocity.z) > 1);
+        return (Mathf.Abs(rb.linearVelocity.x) + Mathf.Abs(rb.linearVelocity.y) + Mathf.Abs(rb.linearVelocity.z) > 1);
     }
 
     private void OnParticleCollision(GameObject other) // colisao com o ataque de impacto

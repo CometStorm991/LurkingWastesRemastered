@@ -32,7 +32,7 @@ public class HomingProjectile : MonoBehaviour
     {
         distance = (player.transform.position - this.transform.position).sqrMagnitude;
 
-        rb.velocity = transform.forward * speed; // aplica velocidade ao projetil
+        rb.linearVelocity = transform.forward * speed; // aplica velocidade ao projetil
 
         if(distance > 2 && chase) // caso ainda nao tenha passado pelo player
         {
