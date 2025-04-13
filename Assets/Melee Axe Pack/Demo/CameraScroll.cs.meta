@@ -7,3 +7,10 @@ MonoImporter:
   icon: {instanceID: 0}
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35320
+  packageName: Melee Axe Pack
+  packageVersion: 1.0
+  assetPath: Assets/Mixamo/Melee Axe Pack/Demo/CameraScroll.cs
+  uploadId: 60572

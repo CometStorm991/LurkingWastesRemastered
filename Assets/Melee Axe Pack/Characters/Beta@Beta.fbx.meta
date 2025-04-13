@@ -954,3 +954,10 @@ ModelImporter:
   additionalBone: 1
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35320
+  packageName: Melee Axe Pack
+  packageVersion: 1.0
+  assetPath: Assets/Mixamo/Melee Axe Pack/Characters/Beta@Beta.fbx
+  uploadId: 60572
